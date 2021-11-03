@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThirdFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="144dp"
+            android:padding="30dp"
+            android:src="@mipmap/ic_profile"/>
+
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:text="Current User"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtUserName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textAlignment="center"
+
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/txtInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEmail"
+            android:text="EDIT INTERESTS"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:id="@+id/rlLayout"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_below="@id/txtInterest"
+            android:layout_marginTop="20dp">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Sports" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/checkBox1"
+                android:text="Music" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/checkBox2"
+                android:text="Games" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/checkBox3"
+                android:text="TV and Film" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox1"
+                android:layout_marginLeft="10dp"
+                android:text="Religion and spirituality" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox1"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/checkBox5"
+                android:text="News and Politics" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox5"
+                android:layout_marginLeft="10dp"
+                android:text="Health and Fitness" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox5"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/checkBox7"
+                android:text="Business and Finance" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox5"
+                android:layout_marginLeft="-244dp"
+                android:layout_marginTop="41dp"
+                android:layout_toRightOf="@id/checkBox8"
+                android:text="Arts" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:text="Education" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox7"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="43dp"
+                android:layout_toRightOf="@id/checkBox10"
+                android:text="Science and Medicine" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox7"
+                android:layout_marginLeft="-140dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/checkBox11"
+                android:text="Technology" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/checkBox10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:text="Government" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/btn_background"
+            android:text="Save" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/app_logo"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/app_logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/etEmail"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:background="@drawable/edt_background"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="LOG IN"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/btn_background"
+        android:layout_below="@id/etPassword"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SecondFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bunzz"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+            <TextView
+                android:id="@+id/txtName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bobby"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+            <TextView
+                android:id="@+id/txtName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ramyy"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+            <TextView
+                android:id="@+id/txtName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rocky"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+            <TextView
+                android:id="@+id/txtName9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bonty"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+
+            <TextView
+                android:id="@+id/txtName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bunchi"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/txtName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName11"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Same Interests" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_background"
+                android:text="Send Request" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_below="@id/txtName2"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

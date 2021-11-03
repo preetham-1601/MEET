@@ -1,0 +1,24 @@
+[
+
+  {
+    "interest" : "Tennis",
+    "userinterest" : true
+  }
+,
+  {
+    "interest" : "TT",
+    "userinterest" : false
+  }
+,
+  {
+    "interest" : "Music",
+    "userinterest" : true
+  }
+,
+  {
+    "interest" : "Cricket",
+    "userinterest" : false
+  }
+
+
+]
